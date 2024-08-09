@@ -26,4 +26,4 @@ bool Graph::addVertex(std::string vertex){
         }
 
      
-};
+}
