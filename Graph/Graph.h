@@ -11,5 +11,6 @@ private:
 public:
     bool addVertex(std::string vertex);
     void printGraph();
+    bool addEdge(std::string v1, std::string v2);
 };
 #endif

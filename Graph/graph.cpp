@@ -17,5 +17,13 @@ bool Graph::addVertex(std::string vertex){
             std::cout << " ] \n";
         }
 
+         bool Graph::addEdge(std::string v1, std::string v2){
+            if(adjList.count(v1) !=0 && adjList.count(v2) !=0){
+                adjList.at(v1).insert(v2);
+                adjList.at(v1).insert(v1);
+            }
+
+        }
+
      
-}
+};
